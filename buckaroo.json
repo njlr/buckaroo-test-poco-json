@@ -1,0 +1,7 @@
+{
+  "name": "poco",
+  "dependencies": {
+    "pocoproject/json": "1.7.8",
+    "google/gtest": "1.8.0"
+  }
+}
