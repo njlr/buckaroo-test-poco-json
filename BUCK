@@ -1,6 +1,6 @@
 include_defs('//BUCKAROO_DEPS')
 
-cxx_binary(
+cxx_test(
   name = 'test1',
   header_namespace = 'poco',
   srcs = glob([
@@ -8,4 +8,3 @@ cxx_binary(
   ]),
   deps = BUCKAROO_DEPS,
 )
-

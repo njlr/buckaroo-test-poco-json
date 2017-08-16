@@ -1,9 +1,10 @@
-
 #include <iostream>
 #include <string>
+
 #include <Poco/JSON/JSON.h>
 #include <Poco/JSON/Parser.h>
 #include <Poco/Dynamic/Var.h>
+
 #include <gtest/gtest.h>
 
 using namespace std;
@@ -40,4 +41,3 @@ TEST(poco, json) {
     //
     ASSERT_TRUE(5 == GetValue(loJsonObject, "test"));
 }
-
